@@ -1,6 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 rapporter/
+.idea/
+
 *.py[codz]
 *$py.class
 
