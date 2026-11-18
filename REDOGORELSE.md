@@ -10,13 +10,15 @@ This document explains how I used Python in my Server Inventory Tool project.
 
 **Function:** I create functions with `def`. For example, `def find_server(servers, name):` creates a function that searches for a server. It returns the server if found, or `None` if it does not exist.
 
-I also use a `while True` loop in `start_menu()` to keep the menu open until the user chooses 0.
+I also use a `while True` loop in `start_menu()` to keep the menu open until the user chooses 8.
 
 ## 2. Lists and dictionaries
 
 I store all servers in a **list**. Each server is a **dictionary** with these keys: `namn`, `adress`, `miljo`, `roll`, `status`, and `senast_kontrollerad`.
 
 A list is useful because I can add, remove, and go through several servers. A dictionary is useful because every value has a clear name. For example, `server["namn"]` gives the server name and `server["status"]` gives its status.
+
+All six values in a server dictionary are strings (str), including the status and the last checked timestamp.
 
 ## 3. Why I use JSON and CSV
 
