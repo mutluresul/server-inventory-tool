@@ -62,7 +62,7 @@ I do not need to install extra Python packages.
 
 ## 7. Sources and help
 
-For this project, I mainly used the course materials. These helped me understand the Python concepts we learned in class and how to use them in my project.
+For this project, I mainly used the course materials and my notes from previous python lessons. These helped me remember and understand python concepts we learned in class and how to use them in my project.
 
 I also used YouTube tutorials and Python websites such as Real Python when I needed more explanations or examples. These sources helped me understand topics like functions, lists, dictionaries, JSON, and error handling.
 

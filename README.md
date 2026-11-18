@@ -25,6 +25,7 @@ Some networks block ping. A server marked `down` may still be running.
 
 ## 3. Project files
 
+
 ```text
 server-inventory-tool/
     main.py
@@ -35,7 +36,9 @@ server-inventory-tool/
     .gitignore
     README.md
     REDOGORELSE.md
+    REFLEKTION.md
 ```
+
 
 - `main.py` starts the program and reads CLI arguments with `argparse`.
 - `meny.py` shows the menu and asks the user for information.
@@ -44,6 +47,7 @@ server-inventory-tool/
 - `servrar.json` contains the saved server list.
 - `.gitignore` keeps generated files out of Git.
 - `REDOGORELSE.md` explains the code and why it is used.
+- `REFLEKTION.md` explains my design choices , alternative solutions, and additional features.
 
 The folder `rapporter/` is created automatically when a report is exported.
 
