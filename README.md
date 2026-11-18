@@ -40,14 +40,16 @@ server-inventory-tool/
 ```
 
 
-- `main.py` starts the program and reads CLI arguments with `argparse`.
-- `meny.py` shows the menu and asks the user for information.
-- `lagring.py` loads and saves JSON, manages servers, and creates reports.
-- `kontroller.py` checks servers with ping and saves their status.
-- `servrar.json` contains the saved server list.
-- `.gitignore` keeps generated files out of Git.
-- `REDOGORELSE.md` explains the code and why it is used.
-- `REFLEKTION.md` explains my design choices , alternative solutions, and additional features.
+
+- [main.py](main.py) starts the program and reads CLI arguments with `argparse`.
+- [meny.py](meny.py) shows the menu and asks the user for information.
+- [lagring.py](lagring.py) loads and saves JSON, manages servers, and creates reports.
+- [kontroller.py](kontroller.py) checks servers with ping and saves their status.
+- [servrar.json](servrar.json) contains the saved server list.
+- [.gitignore](.gitignore) keeps generated files out of Git.
+- [REDOGORELSE.md](REDOGORELSE.md) explains the code and why it is used.
+- [REFLEKTION.md](REFLEKTION.md) explains my design choices , alternative solutions, and additional features.
+
 
 The folder `rapporter/` is created automatically when a report is exported.
 
